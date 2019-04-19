@@ -38,6 +38,9 @@ echo $daun  "  3.Grab  "
 sleep 0.4
 echo $merah "[]================[]"
 echo $daun  "  4.TokoPedia"
+sleep 0.4
+echo $merah "[]================[]"
+echo $daun  "  5.Codashop"
 echo $merah "[]================[]"
 sleep 1
 echo
@@ -111,6 +114,22 @@ echo
 echo
 cd php
 php 4.php
+exit
+fi
+if [ $pilih = "5" ] || [ $pilih = "5" ]
+then
+clear
+echo $daun
+toilet -f slant --gay "CodaShop"
+sleep 1
+echo $daun "Code By Bl4ck_Dr460n"
+sleep 1
+echo $merah "Gunakan Dgn Bijak Ya Bossq"
+sleep 1
+echo
+echo
+cd php
+php 5.php
 exit
 fi
 if [ $pilih = "0" ] || [ $pilih = "0" ]
