@@ -1,0 +1,8 @@
+apt update
+apt upgrade
+pkg install php -y
+pkg install cowsay -y
+pkg install toilet -y
+pkg install sl
+clear
+toilet -f slant --gay "DONE !!"
